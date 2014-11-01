@@ -1,6 +1,10 @@
 def pdf_plot(fig2, indata, i, xbrs, ybrs, munits):
 	''' creates a Gaussian pdf plot of any array. If the array has multiple dimensions
-	it is flattened first. Relies on the Python "Statistics"  and "Matplotlib" libraries. '''
+	it is flattened first. Relies on the Python "Statistics"  and "Matplotlib" libraries. 
+	
+	http://bonsai.hgc.jp/~mdehoon/software/python/
+	
+	http://matplotlib.org/'''
 
 	import statistics as st
 	import numpy as np
