@@ -15,6 +15,9 @@ def uk_map(fig1, indata, clevs, datlons, datlats, mtitle, munits, maskswitch):
 	from matplotlib.colors import LightSource
 	import matplotlib.pyplot as plt
 	import numpy as np
+	import hillshade
+	import set_shade
+	import colour_map
 	
 	if maskswitch==1:
 		# import missing data map for masking out of oceans 
